@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoFuturo | Desenvolvimento Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="container" aria-label="Menu Principal">
+            <div class="logo">Eco<span>Futuro</span></div>
+            <div class="accessibility-controls">
+                <button onclick="changeFontSize('increase')" aria-label="Aumentar fonte">A+</button>
+                <button onclick="changeFontSize('decrease')" aria-label="Diminuir fonte">A-</button>
+                <button onclick="toggleContrast()" aria-label="Alternar alto contraste">
+                    <span class="icon">🌓</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container scroll-reveal">
+                <h1 id="hero-title">O amanhã começa com as escolhas de hoje.</h1>
+                <p>Explore as práticas que garantem o equilíbrio entre crescimento econômico e preservação ambiental.</p>
+                <a href="#pilares" class="btn-primary">Saiba Mais</a>
+            </div>
+        </section>
+
+        <section id="pilares" class="container" aria-labelledby="pilares-title">
+            <h2 id="pilares-title" class="section-title">Nossos Pilares</h2>
+            <div id="grid-pilares" class="grid-container">
+                </div>
+        </section>
+
+        <section class="faq container" aria-labelledby="faq-title">
+            <h2 id="faq-title" class="section-title">Dúvidas Frequentes</h2>
+            <div id="accordion-container">
+                </div>
+        </section>
+    </main>
+
+    <footer class="container">
+        <p>&copy; 2023 EcoFuturo. Site acessível e sustentável.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
